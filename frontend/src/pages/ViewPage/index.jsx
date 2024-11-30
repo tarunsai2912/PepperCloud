@@ -4,7 +4,7 @@ import ClipLoader from "react-spinners/ClipLoader"
 import axios from 'axios'
 import homeImg from '../../assets/home.png'
 import { useParams, useNavigate } from 'react-router-dom'
-const url = 'http://localhost:3003/api/form'
+const url = 'https://pepper-cloud-backend-one.vercel.app/api/form'
 
 function ViewPage() {
 

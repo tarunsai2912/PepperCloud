@@ -3,7 +3,7 @@ import './index.css'
 import axios from 'axios'
 import ClipLoader from "react-spinners/ClipLoader"
 import { useNavigate } from 'react-router-dom'
-const url = 'http://localhost:3003/api/form'
+const url = 'https://pepper-cloud-backend-one.vercel.app/api/form'
 
 function AllForms() {
 

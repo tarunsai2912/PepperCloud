@@ -5,7 +5,7 @@ import axios from 'axios'
 import editImg from '../../assets/edit.png'
 import './index.css'
 import {useNavigate} from 'react-router-dom'
-const url = 'http://localhost:3003/api/form'
+const url = 'https://pepper-cloud-backend-one.vercel.app/api/form'
 
 function CreatePage() {
 
