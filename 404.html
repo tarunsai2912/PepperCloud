@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; URL=/" />
+  </head>
+  <script>
+    // Redirect to the base URL when an unknown route is accessed
+    const redirectTo = '/PepperCloud/';
+    if (!location.pathname.startsWith(redirectTo)) {
+      location.href = redirectTo;
+    }
+  </script>
+</html>
